@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>TempConverter</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Conversor de Temperatura</h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt="logo da imersão dev da alura">
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo da alura" class="alura-logo">
+        </a>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <div class="card-celcius">
+                <h2>ºC</h2>
+                <p>Temperatura em Graus Celcius</p>
+                <form action="">
+                    <input type="number" id="conversor" placeholder="Temperatura">
+                    <button id="send-button" onclick="conversorTemperatura()">Enviar</button>
+                </form>
+                
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-fahrenheit">
+                <h2>ºF</h2>
+                <p id="info"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
