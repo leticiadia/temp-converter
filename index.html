@@ -31,13 +31,14 @@
                 <p>Temperatura em Graus Celcius</p>
                 <form action="">
                     <input type="number" id="conversor" placeholder="Temperatura">
-                    <button id="send-button" onclick="conversorTemperatura()">Enviar</button>
+                    <button id="send-button" onclick="conversorTemperatura(), changeImage()">Enviar</button>
                 </form>
                 
             </div>
         </section>
 
         <section class="card">
+            
             <div class="card-fahrenheit">
                 <h2>ºF</h2>
                 <p id="info"></p>

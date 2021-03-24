@@ -98,6 +98,11 @@ main {
     line-height: 35px;
 }
 
+#info {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 
 /* input */
 input{
